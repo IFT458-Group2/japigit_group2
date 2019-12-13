@@ -1,0 +1,9 @@
+The current open price for  msft  is:  151.6500
+The current open price for  amzn  is:  1750.0000
+The current open price for  aapl  is:  267.7800
+The current open price for  intc  is:  56.7500
+The current open price for  amd  is:  39.4000
+The current open price for  amzn  is:  1750.0
+The current open price for  aapl  is:  267.78
+The current open price for  amzn  is:  1750.0
+The current open price for  amzn  is: $ 1750.0
