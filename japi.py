@@ -39,3 +39,4 @@ def getstockdata(symbol):
 
 
 main()
+print("Stock Quotes retrieved successfully!")
