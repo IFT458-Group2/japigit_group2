@@ -1,0 +1,50 @@
+Script started on Fri 13 Dec 2019 12:16:00 AM MST
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[?1034h[student@vmhost japigit]$ git init
+Reinitialized existing Git repository in /home/student/Documents/japigit/.git/
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git config user[K[K[K[K[K --global user.name :[K""F"i"r"s"t"0"[1P"-"n"a"m"e" "L"a"s"t"-"n"a"m"e"
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git config --global user.email emao;[K[Kiladd[K[K[KAddress[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit config --global user.name "First-name Last-name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"N"i"c"h"o"l"a"s" "D"r"a"k"e"
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git config --global user.name "Nicholas Drake"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgo[Kit config --global user,[K.email :[Kndrake3@asu.edi[Ku
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'hello.txt' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git comminy[K[Ky[Kt 0[K-m :[K:[K""c"o"m"m"e"n"t" "s"t"r"i"n"g"
+[master 4a7a185] comment string
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_activities
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git commint[K[Kt 0[K[K -am :[K[K ::[K[K""comment[K[K[K[K[K[K[K[K[K:[K"comment string"
+[master c062943] comment string
+ 2 files changed, 4 deletions(-)
+ delete mode 100644 hello.txt
+ delete mode 100644 merge.txt
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git status
+# On branch master
+nothing to commit, working directory clean
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git status -s
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ echo ::[K[K""h"e"l"l"o" "t"h"e"r"e"[C > hello.txt
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git sr[Ktatus
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	hello.txt
+nothing added to commit but untracked files present (use "git add" to track)
+]0;student@vmhost:~/Documents/japigit]7;file://vmhost/home/student/Documents/japigit[student@vmhost japigit]$ git status -a
+error: unknown switch `a'
+usage: git status [options] [--] <pathspec>...
+
+    -v, --verbose         be verbose
+    -s, --short           show status concisely
+    -b, --branch          show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entri
